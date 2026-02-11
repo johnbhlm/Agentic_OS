@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>assistant_robot</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="john_bh@163.com">maintenance</maintainer>
+  <license>TODO: License declaration</license>
+  
+   <!-- 构建时依赖：使用 ament_python 来安装 Python 包 -->
+  <buildtool_depend>ament_python</buildtool_depend>
+  
+  <!-- ROS2 运行时依赖 -->
+  <!-- <depend>rclpy</depend>
+  <depend>std_msgs</depend> -->
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>assistant_robot_msgs</exec_depend>
+
+  <!-- 其它第三方库 -->
+  <exec_depend>pyaudio</exec_depend>
+  <exec_depend>openai</exec_depend>
+  <exec_depend>simpleaudio</exec_depend>
+  
+  
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

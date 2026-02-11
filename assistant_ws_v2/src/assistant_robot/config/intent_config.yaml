@@ -1,0 +1,10 @@
+intents:
+  - name: QA
+    description: "普通问答"
+  - name: PLAN
+    description: "任务规划"
+  # - name: SEARCH
+  #   description: "信息检索"
+  # - name: SCHEDULE
+  #   description: "日程管理"
+  # ……未来可继续添加……
